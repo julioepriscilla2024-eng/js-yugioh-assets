@@ -19,6 +19,9 @@
       rel="stylesheet"
     />
 
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./src/assets/favicon/Favicon.ico" type="image/x-icon">
+
     <!-- main style-->
 
     <link rel="stylesheet" href="./src/styles/main.css" />
@@ -26,6 +29,9 @@
     <title>Yu-Gi-ho Jo-Ken-Po Edition</title>
   </head>
   <body>
+    <audio id="bgm" loop>
+      <source src="./src/assets/audios/egyptian_duel.mp3" type="audio/mp3" />
+    </audio>
     <div class="bg-video">
         <video class="video" autoplay loop muted>
             <source src="./src/assets/video/yugi.mp4" type="video/mp4" />
@@ -40,8 +46,8 @@
                 <img id="card-image">
             </div>
             <div class="card_details frame">
-                <p id="card-name">a</p>
-                <p id="card-type">a</p>
+                <p id="card-name">SELECIONE</p>
+                <p id="card-type">uma carta</p>
             </div>
 
         </div>
